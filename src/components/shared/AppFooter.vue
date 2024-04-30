@@ -1,3 +1,13 @@
+<!--
+ * @Author: Liu Jiarong
+ * @Date: 2024-04-30 19:25:20
+ * @LastEditors: Liu Jiarong
+ * @LastEditTime: 2024-05-01 00:32:15
+ * @FilePath: /my-website/src/components/shared/AppFooter.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+-->
 <template>
   <footer class="bg-dark text-white text-center">
     <!-- Grid container -->
@@ -18,7 +28,13 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3">© {{ copyright }}</div>
+    <a
+      class="text-center p-3"
+      style="cursor: pointer; display: inline-block"
+      onclick="window.open('https://beian.miit.gov.cn')"
+    >
+      {{ copyright }}
+    </a>
     <!-- Copyright -->
   </footer>
 </template>

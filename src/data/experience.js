@@ -1,3 +1,13 @@
+/**
+ * @Author: Liu Jiarong
+ * @Date: 2024-04-30 19:25:20
+ * @LastEditors: Liu Jiarong
+ * @LastEditTime: 2024-04-30 20:04:39
+ * @FilePath: /my-website/src/data/experience.js
+ * @Description:
+ * @
+ * @Copyright (c) 2024 by ${git_name_email}, All Rights Reserved.
+ */
 const experience = [
   {
     id: 1,
@@ -9,15 +19,12 @@ const experience = [
       {
         id: 1,
         description:
-          "调查并修复了KMS灯塔搜索系统中的错误，包括搜索算法、RESTful API和Solr配置",
+          "参与前期需求评审确认需求、测试用例、开发周期与UI对接各个功能模块的页面",
       },
       {
         id: 2,
-        description: "致力于提高搜索性能和多语言Solr配置",
-      },
-      {
-        id: 3,
-        description: "进行研究以提高语言检测性能",
+        description:
+          "与项目经理和技术团队成员等进行充分的沟通，开发高效率，高可用性的web网页制作、移动端的WebApp以及微信小程序",
       },
     ],
   },
@@ -30,12 +37,16 @@ const experience = [
     description: [
       {
         id: 1,
-        description:
-          "接受了资深开发人员的指导和支持，并在GoLang获得了后端开发的实践经验",
+        description: "负责广西区域定制化需要的评审，负责重点项目的前端优化",
       },
       {
         id: 2,
-        description: "在一名高级软件工程师的监督下参与VMmanager导入服务开发",
+        description: "负责前端框架的搭建及指导其他开发人员前端项目开发",
+      },
+      {
+        id: 3,
+        description:
+          "输出前端组编码规范，新人成长计划，内部技能培训以及代码评审等",
       },
     ],
   },

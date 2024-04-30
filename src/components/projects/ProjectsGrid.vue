@@ -11,7 +11,7 @@
             name="name"
             type="search"
             required=""
-            placeholder="Search Application"
+            placeholder="搜索应用程序"
             aria-label="Name"
           />
         </div>

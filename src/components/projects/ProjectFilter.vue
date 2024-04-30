@@ -1,3 +1,13 @@
+<!--
+ * @Author: Liu Jiarong
+ * @Date: 2024-04-30 19:25:20
+ * @LastEditors: Liu Jiarong
+ * @LastEditTime: 2024-04-30 23:13:25
+ * @FilePath: /my-website/src/components/projects/ProjectFilter.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+-->
 <script>
 export default {
   name: "ProjectFilter",
@@ -9,7 +19,7 @@ export default {
     },
     selectOptions: {
       type: Array,
-      default: () => ["Web Development", "Machine Learning"],
+      default: () => ["Web网站", "AI应用"],
     },
   },
 };
@@ -22,7 +32,7 @@ export default {
     :id="select"
     class="form-select"
   >
-    <option value class="text-sm sm:text-md">All Application</option>
+    <option value class="text-sm sm:text-md">所有应用</option>
     <option
       v-for="option in selectOptions"
       :key="option"

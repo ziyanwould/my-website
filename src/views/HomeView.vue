@@ -5,9 +5,9 @@
     <template v-slot:welcome>欢迎访问!</template>
     你可以称呼我为<b>留加绒</b> ，这是我的昵称。我是一个
     <hi-word>软件开发工程师</hi-word> 我擅长的是使用现代框架构建
-    <hi-word>web软件应用开发</hi-word> 和
+    <hi-word>web软件应用</hi-word> 和
     <hi-word>网站设计</hi-word>
-    的开发.同样的我对跨端应用开发也有着浓厚兴趣，例如<hi-word>flutter、RN、uniapp</hi-word>等。
+    的开发。同样的我对跨端应用开发也有着浓厚兴趣，例如<hi-word>flutter、RN、uniapp</hi-word>等。
     我想成为一名<hi-word>全栈开发者</hi-word>并为此努力着。
     <template v-slot:buttons>
       <simple-button
@@ -82,7 +82,7 @@ export default {
       socials: [
         {
           id: 1,
-          icon: "fab linkedin-in",
+          icon: "fab chrome",
           url: "https://maimai.cn/profile/detail?dstu=39493000",
         },
         {

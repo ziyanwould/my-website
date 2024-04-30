@@ -33,40 +33,45 @@ import { useMeta } from "vue-meta";
 export default {
   data: () => {
     return {
-      webTitle: "Nikita RUSETSKII - Backend Developer",
+      webTitle: "留加绒网站 软件工程师 免费chatgpt",
     };
   },
   setup() {
     useMeta({
-      title: "Nikita RUSETSKII - Backend Developer",
-      description: "Just a guy with passion for coding",
+      title: "留加绒网站 软件工程师 免费chatgpt",
+      description:
+        "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
       htmlAttrs: {
-        lang: "en",
+        lang: "zh-CN",
         amp: true,
       },
       twitter: {
-        title: "Nikita RUSETSKII - Backend Developer",
-        description: "Just a guy with passion for coding",
+        title: "留加绒网站 软件工程师 免费chatgpt",
+        description:
+          "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
         card: "summary_large_image",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
+        image:
+          "https://www.liujiarong.top" + require(`@/assets/images/preview.png`),
       },
       og: {
-        title: "Nikita RUSETSKII - Backend Developer",
-        description: "Just a guy with passion for coding",
+        title: "留加绒网站 软件工程师 免费chatgpt",
+        description:
+          "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
         type: "website",
-        url: "https://rusetskii.dev/",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
-        site_name: "Nikita RUSETSKII - Backend Developer",
+        url: "https://www.liujiarong.top",
+        image:
+          "https://www.liujiarong.top" + require(`@/assets/images/preview.png`),
+        site_name: "留加绒网站 软件工程师 免费chatgpt",
       },
       meta: [
         {
           name: "keywords",
           content:
-            "software developer, software engineer, backend developer, fullstack developer, machine learning engineer, AI researcher, developer portfolio",
+            "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
         },
         {
           name: "author",
-          content: "Nikita Rusetskii",
+          content: "留加绒",
         },
       ],
       link: [

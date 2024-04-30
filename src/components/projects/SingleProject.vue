@@ -1,6 +1,8 @@
 <template>
-  <router-link
-    to="/projects/single-project"
+  <a
+    target="_blank"
+    :href="project.url"
+    style="display: block"
     class="col-12 col-lg-4 mb-3 mb-md-5"
     aria-label="Single Project"
   >
@@ -13,6 +15,7 @@
       <div class="card-img-container position-relative">
         <img
           class="card-img-top rounded-0"
+          style="object-fit: contain"
           :src="require(`@/assets/images/${project.image}`)"
           :alt="project.title"
         />
@@ -40,7 +43,7 @@
       </div>
     </div>
     <!--//card-->
-  </router-link>
+  </a>
 </template>
 <script>
 export default {
