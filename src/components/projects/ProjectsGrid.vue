@@ -1,7 +1,7 @@
 <template>
   <section class="p-3 p-lg-5" id="projects">
     <div class="container">
-      <h2 class="my-md-5 text-center mb-3">Projects</h2>
+      <h2 class="my-md-5 text-center mb-3">Application</h2>
       <div class="row">
         <div class="col-12 col-lg-3 mb-3 mb-md-5">
           <input
@@ -11,7 +11,7 @@
             name="name"
             type="search"
             required=""
-            placeholder="Search Projects"
+            placeholder="Search Application"
             aria-label="Name"
           />
         </div>

@@ -1,44 +1,41 @@
 const experience = [
   {
     id: 1,
-    date: "Jan 2022 - Present",
-    position: "Backend Developer",
-    company: "KMS Lighthouse",
-    url: "https://kmslh.com/",
+    date: "2023.5 - ",
+    position: "高级前端开发工程师",
+    company: "中国东信",
+    url: "http://www.caih.com",
     description: [
       {
         id: 1,
         description:
-          "Investigated and fixed bugs in the search system of KMS Lighthouse including search algorithms, RESTful API and Solr configuration",
+          "调查并修复了KMS灯塔搜索系统中的错误，包括搜索算法、RESTful API和Solr配置",
       },
       {
         id: 2,
-        description:
-          "Worked on improving search performance and multilanguage Solr configuration",
+        description: "致力于提高搜索性能和多语言Solr配置",
       },
       {
         id: 3,
-        description:
-          "Conducted research to increase language detection performance",
+        description: "进行研究以提高语言检测性能",
       },
     ],
   },
   {
     id: 2,
-    date: "Feb 2020 - Apr 2020",
-    position: "Backend Developer Intern",
-    company: "ISPsystem",
-    url: "https://www.ispsystem.com/",
+    date: "2019.10 - 2023.5",
+    position: "广西前端开发主管",
+    company: "浙江大华",
+    url: "https://www.dahuatech.com",
     description: [
       {
         id: 1,
         description:
-          "Received coaching and support from senior developers and gained practical experience in GoLang for backend development",
+          "接受了资深开发人员的指导和支持，并在GoLang获得了后端开发的实践经验",
       },
       {
         id: 2,
-        description:
-          "Participated in VMmanager import service development under the supervision of a senior software engineer",
+        description: "在一名高级软件工程师的监督下参与VMmanager导入服务开发",
       },
     ],
   },

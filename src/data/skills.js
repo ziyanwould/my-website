@@ -1,90 +1,95 @@
 const skills = [
   {
     id: 1,
-    title: "Back End",
+    title: "🚀 PC网站开发",
     image: "backend_blue.png",
     languages: [
       {
         id: 1,
-        title: "Java",
+        title: "HTML5/CSS3/ES6",
         css: "java",
       },
       {
         id: 2,
-        title: "Groovy",
+        title: "vuejs",
         css: "groovy",
       },
       {
         id: 3,
-        title: "Apache Solr",
+        title: "reactjs",
         css: "solr",
       },
       {
         id: 4,
-        title: "Spring Data",
+        title: "SpringBoot",
         css: "spring",
       },
       {
         id: 5,
-        title: "Docker",
+        title: "Bootstrap",
         css: "docker",
       },
     ],
     description:
-      "I develop web apps using JVM languages and work closely with NoSQL search engines like Apache Solr",
+      "设计直观、引人入胜的PC网站界面，优化性能确保用户流畅体验，处理跨浏览器兼容性，打造稳定一致的用户界面。",
   },
   {
     id: 2,
-    title: "Front End",
+    title: "📱 移动端开发",
     image: "frontend_blue.png",
     languages: [
       {
         id: 1,
-        title: "JavaScript",
+        title: "H5",
         css: "js",
       },
       {
         id: 2,
-        title: "Vue.js",
+        title: "小程序",
         css: "vuejs",
       },
       {
         id: 3,
-        title: "Bootstrap",
+        title: "Vant",
         css: "bootstrap",
       },
       {
         id: 4,
-        title: "Bulma",
+        title: "cube-ui",
         css: "bulma",
       },
     ],
     description:
-      "Even though Im a backend developer, I have passion for designing web apps and websites and Im into such things as JavaScript and Vue.js",
+      "运用响应式设计，确保移动设备上无缝访问，处理触摸事件和手势交互，提升用户在移动端的互动体验。",
   },
   {
     id: 3,
-    title: "Machine Learning",
+    title: "🌐 跨端开发",
     image: "ai_blue.png",
     languages: [
       {
         id: 1,
-        title: "Tensorflow",
+        title: "electron",
         css: "tensorflow",
       },
       {
         id: 2,
-        title: "PyTorch",
+        title: "flutter",
         css: "pytorch",
       },
       {
         id: 3,
-        title: "OpenCV",
+        title: "React Native",
+        css: "opencv",
+      },
+      {
+        id: 4,
+        title: "uniapp",
         css: "opencv",
       },
     ],
     description:
-      "I use deep learning to solve problems in the real world. I use Tensorflow and PyTorch to build neural networks and use OpenCV to process images",
+      "利用框架如React Native、Flutter，实现多端适配，提高代码复用和维护性，确保应用在各个平台上表现卓越。",
   },
 ];
 

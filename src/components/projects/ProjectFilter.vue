@@ -22,7 +22,7 @@ export default {
     :id="select"
     class="form-select"
   >
-    <option value class="text-sm sm:text-md">All Projects</option>
+    <option value class="text-sm sm:text-md">All Application</option>
     <option
       v-for="option in selectOptions"
       :key="option"

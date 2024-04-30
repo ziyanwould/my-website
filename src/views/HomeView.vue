@@ -1,26 +1,26 @@
 <template>
   <!-- Menu -->
-  <MenuVue :links="links">> # ~ / nikita<span class="prim">r</span></MenuVue>
+  <MenuVue :links="links">> # ~ / jiarongli<span class="prim">u</span></MenuVue>
   <HeroSection id="hero" pic="header.png">
-    <template v-slot:welcome>Welcome!</template>
-    My name is <b>Nikita Rusetskii</b> and I'm a
-    <hi-word>software engineer</hi-word>. My passion is building
-    <hi-word>web applications</hi-word> and
-    <hi-word>designing websites</hi-word> using modern frameworks. Also I'm
-    doing research in <hi-word>machine learning</hi-word> applied to renewable
-    energy
+    <template v-slot:welcome>欢迎访问!</template>
+    你可以称呼我为<b>留加绒</b> ，这是我的昵称。我是一个
+    <hi-word>软件开发工程师</hi-word> 我擅长的是使用现代框架构建
+    <hi-word>web软件应用开发</hi-word> 和
+    <hi-word>网站设计</hi-word>
+    的开发.同样的我对跨端应用开发也有着浓厚兴趣，例如<hi-word>flutter、RN、uniapp</hi-word>等。
+    我想成为一名<hi-word>全栈开发者</hi-word>并为此努力着。
     <template v-slot:buttons>
       <simple-button
         class="btn-primary text-white"
-        url="https://linkedin.com/in/xtenzq"
+        url="https://maimai.cn/profile/detail?dstu=39493000"
         icon="fab linkedin-in"
         >Hire me!</simple-button
       >
       <simple-button
         class="btn-outline-secondary"
-        url="mailto:rusetscky@outlook.com"
+        url="mailto:godisljr@163.com"
         icon="fa-regular fa-file-lines"
-        >Contact me</simple-button
+        >联系我</simple-button
       >
     </template>
   </HeroSection>
@@ -55,23 +55,23 @@ export default {
       delay: 100,
       links: [
         {
-          name: "home",
+          name: "简介",
           url: "#hero",
         },
         {
-          name: "skills",
+          name: "技能",
           url: "#skills",
         },
         {
-          name: "experience",
+          name: "经历",
           url: "#edu-exp",
         },
         {
-          name: "awards",
+          name: "项目",
           url: "#awards",
         },
         {
-          name: "projects",
+          name: "应用",
           url: "#projects",
         },
       ],
@@ -83,15 +83,15 @@ export default {
         {
           id: 1,
           icon: "fab linkedin-in",
-          url: "https://linkedin.com/in/xtenzq",
+          url: "https://maimai.cn/profile/detail?dstu=39493000",
         },
         {
           id: 2,
           icon: "fab github",
-          url: "https://github.com/xtenzq",
+          url: "https://github.com/ziyanwould?tab=repositories",
         },
       ],
-      copyright: "2022 Nikita Rusetskii",
+      copyright: "Copyright © 2024 留加绒 | Powered by 桂ICP备2021005990号",
     };
   },
   components: {
