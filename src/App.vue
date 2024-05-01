@@ -29,6 +29,7 @@
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 import { useMeta } from "vue-meta";
+import { onMounted } from "vue";
 
 export default {
   data: () => {
@@ -76,14 +77,53 @@ export default {
       ],
       link: [
         {
+          rel: "canonical",
+          href: "https://www.liujiarong.top",
+        },
+        {
           rel: "icon",
-          href: require(`@/assets/images/favicon.png`),
+          href: require(`@/assets/images/favicon.webp`),
+        },
+      ],
+      script: [
+        {
+          type: "application/ld+json",
+          json: {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Your Name",
+            jobTitle: "Software Engineer",
+            url: "https://www.liujiarong.top",
+            sameAs: [
+              "https://maimai.cn/profile/detail?dstu=39493000",
+              "https://github.com/ziyanwould",
+            ],
+          },
         },
       ],
     });
+
+    let dataLayer = [];
+
+    const loadGoogleTag = () => {
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-7SGRSKJKKM";
+      document.head.appendChild(script);
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-7SGRSKJKKM");
+    };
+    onMounted(() => {
+      loadGoogleTag();
+    });
   },
   // mounted() {
-  //   AOS.init();
+  //   // AOS.init();
+  //   loadGoogleTag();
   // },
 };
 </script>

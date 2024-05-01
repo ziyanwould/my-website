@@ -7,6 +7,7 @@
         data-aos="fade-up"
         :data-aos-delay="delay"
         data-aos-anchor-placement="top-bottom"
+        alt="免费GPT"
       />
       <h4
         class="mb-3"
