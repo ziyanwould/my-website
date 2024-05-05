@@ -74,6 +74,13 @@ export default {
           name: "应用",
           url: "#projects",
         },
+        {
+          name: "导航",
+          url:
+            process.env.VUE_APP_NAV_URL ||
+            "https://homarr.liujiarong.top/board",
+          target: "_blank",
+        },
       ],
       skills,
       experience,
@@ -104,6 +111,9 @@ export default {
     ProjectsGrid,
     SimpleButton,
     HiWord,
+  },
+  mounted() {
+    console.log("123", process.env.VUE_APP_NAV_URL); // 在 mounted 钩子中访问变量
   },
 };
 </script>

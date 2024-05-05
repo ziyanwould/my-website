@@ -22,7 +22,14 @@
       <div class="collapse navbar-collapse bg-white" id="navbar4">
         <ul class="navbar-nav ms-auto">
           <li v-for="link in links" :key="link.name" class="nav-item px-lg-2">
-            <a class="nav-link" :href="link.url">{{ link.name }}</a>
+            <a
+              class="nav-link"
+              :href="link.url"
+              :target="
+                link.target ? link.target : link.blank ? '_blank' : '_self'
+              "
+              >{{ link.name }}</a
+            >
           </li>
         </ul>
       </div>
