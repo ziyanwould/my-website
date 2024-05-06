@@ -22,6 +22,12 @@
         icon="fa-regular fa-file-lines"
         >联系我</simple-button
       >
+      <simple-button
+        class="btn-outline-secondary"
+        url="https://robot.liujiarong.top"
+        icon="fa-regular fa-file-code"
+        >免费ChatGPT</simple-button
+      >
     </template>
   </HeroSection>
   <SkillsGrid id="skills" :skills="skills" />
@@ -113,7 +119,7 @@ export default {
     HiWord,
   },
   mounted() {
-    console.log("123", process.env.VUE_APP_NAV_URL); // 在 mounted 钩子中访问变量
+    // console.log("123", process.env.VUE_APP_NAV_URL); // 在 mounted 钩子中访问变量
   },
 };
 </script>
