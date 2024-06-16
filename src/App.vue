@@ -34,41 +34,41 @@ import { onMounted } from "vue";
 export default {
   data: () => {
     return {
-      webTitle: "留加绒网站 软件工程师 免费chatgpt",
+      webTitle: "留加绒 - 前端工程师 | 打造卓越数字体验",
     };
   },
   setup() {
     useMeta({
-      title: "留加绒网站 软件工程师 免费chatgpt",
+      title: "留加绒 - 前端工程师 | 打造卓越数字体验",
       description:
-        "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
+        "留加绒是一位专注于前端技术的软件工程师，凭借全栈能力和设计思维，致力于为您打造卓越的数字体验。欢迎探索我的项目经验、技术栈和获取联系方式。",
       htmlAttrs: {
         lang: "zh-CN",
         amp: true,
       },
       twitter: {
-        title: "留加绒网站 软件工程师 免费chatgpt",
+        title: "留加绒 - 前端工程师 | 打造卓越数字体验",
         description:
-          "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
+          "留加绒是一位专注于前端技术的软件工程师，凭借全栈能力和设计思维，致力于为您打造卓越的数字体验。欢迎探索我的项目经验、技术栈和获取联系方式。",
         card: "summary_large_image",
         image:
           "https://www.liujiarong.top" + require(`@/assets/images/preview.png`),
       },
       og: {
-        title: "留加绒网站 软件工程师 免费chatgpt",
+        title: "留加绒 - 前端工程师 | 打造卓越数字体验",
         description:
-          "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
+          "留加绒是一位专注于前端技术的软件工程师，凭借全栈能力和设计思维，致力于为您打造卓越的数字体验。欢迎探索我的项目经验、技术栈和获取联系方式。",
         type: "website",
         url: "https://www.liujiarong.top",
         image:
           "https://www.liujiarong.top" + require(`@/assets/images/preview.png`),
-        site_name: "留加绒网站 软件工程师 免费chatgpt",
+        site_name: "留加绒 - 前端工程师 | 打造卓越数字体验",
       },
       meta: [
         {
           name: "keywords",
           content:
-            "一位热衷于前端技术的工程师。通过全栈能力，他将技术创新融入设计，致力于以业务驱动的方式为您提供卓越的数字体验。了解更多关于前端技能、项目经验和团队协作的信息，共同探索技术驱动业务的未来。",
+            "留加绒是一位专注于前端技术的软件工程师，凭借全栈能力和设计思维，致力于为您打造卓越的数字体验。欢迎探索我的项目经验、技术栈和获取联系方式。",
         },
         {
           name: "author",
@@ -90,9 +90,9 @@ export default {
           type: "application/ld+json",
           json: {
             "@context": "https://schema.org",
-            "@type": "Person",
-            name: "Your Name",
-            jobTitle: "Software Engineer",
+            "@type": "Person", // 可以根据实际情况修改为 Website 或 Organization
+            name: "留加绒",
+            jobTitle: "软件工程师",
             url: "https://www.liujiarong.top",
             sameAs: [
               "https://maimai.cn/profile/detail?dstu=39493000",
