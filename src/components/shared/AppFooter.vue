@@ -2,7 +2,7 @@
  * @Author: Liu Jiarong
  * @Date: 2024-04-30 19:25:20
  * @LastEditors: Liu Jiarong
- * @LastEditTime: 2024-05-01 00:32:15
+ * @LastEditTime: 2024-10-31 00:47:25
  * @FilePath: /my-website/src/components/shared/AppFooter.vue
  * @Description: 
  * 
@@ -31,10 +31,39 @@
     <a
       class="text-center p-3"
       style="cursor: pointer; display: inline-block"
-      onclick="window.open('https://beian.miit.gov.cn')"
+      onclick="window.open('https://liujiarong.top')"
     >
       {{ copyright }}
+      <p
+        style="
+          display: flex;
+          align-items: center;
+          line-height: 16px;
+          justify-content: center;
+          padding-top: 12px;
+        "
+      >
+        <img
+          :src="require(`@/assets/images/waba.png`)"
+          style="width: 16px"
+          alt="安全图标"
+        />
+        <a
+          href="https://beian.mps.gov.cn/#/query/webSearch?code=45010902000181"
+          rel="noreferrer"
+          target="_blank"
+          style="margin-left: 5px"
+          >桂公网安备45010902000181</a
+        >
+        <a
+          target="_blank"
+          href="https://beian.miit.gov.cn/"
+          style="margin-left: 5px"
+          >桂ICP备2021005990号-1</a
+        >
+      </p>
     </a>
+
     <!-- Copyright -->
   </footer>
 </template>

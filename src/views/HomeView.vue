@@ -104,7 +104,7 @@ export default {
           url: "https://github.com/ziyanwould?tab=repositories",
         },
       ],
-      copyright: "Copyright © 2024 留加绒 | Powered by 桂ICP备2021005990号",
+      copyright: "Copyright © 2024 留加绒 | Powered by ziyanwould",
     };
   },
   components: {
