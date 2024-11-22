@@ -1,3 +1,13 @@
+<!--
+ * @Author: Liu Jiarong
+ * @Date: 2024-04-30 19:25:20
+ * @LastEditors: Liu Jiarong
+ * @LastEditTime: 2024-11-23 00:19:35
+ * @FilePath: /my-website/src/components/shared/AppMenu.vue
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+-->
 <template>
   <nav
     class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
@@ -28,6 +38,7 @@
               :target="
                 link.target ? link.target : link.blank ? '_blank' : '_self'
               "
+              @click="link.click"
               >{{ link.name }}</a
             >
           </li>

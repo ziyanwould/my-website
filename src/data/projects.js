@@ -2,7 +2,7 @@
  * @Author: Liu Jiarong
  * @Date: 2024-04-30 19:25:20
  * @LastEditors: Liu Jiarong
- * @LastEditTime: 2024-06-06 02:16:05
+ * @LastEditTime: 2024-11-23 01:02:31
  * @FilePath: /my-website/src/data/projects.js
  * @Description:
  * @
@@ -26,7 +26,7 @@ const projects = [
     image: "Application2.png",
     url: "https://robot.liujiarong.top/chat/",
     category: "AI应用",
-    tags: ["ChatGPT", "Anthropic", "Google AI", "Ollama AI", "SD/MJ"],
+    tags: ["GPT", "Kimi", "Qwen", "Spark", "SD"],
     description:
       "打造你的个人 AI 助手和专业团队，与 AI 携手推进你的创意事业、写作项目、学习征途和职业任务。从此，指挥一个专门的小组来应对特定挑战，提升工作效率，在个体崛起的时代中脱颖而出。这将在 AI-Chat 中成为现实。在这里，你可以用文字描述创造艺术。无论是图片、音频甚至视频，描述它 👉 我将为您创作",
   },

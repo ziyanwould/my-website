@@ -1,3 +1,13 @@
+/**
+ * @Author: Liu Jiarong
+ * @Date: 2024-04-30 19:25:20
+ * @LastEditors: Liu Jiarong
+ * @LastEditTime: 2024-11-22 23:05:38
+ * @FilePath: /my-website/src/data/awards.js
+ * @Description: 
+ * @
+ * @Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+ */
 const awards = [
   {
     id: 1,
@@ -17,7 +27,7 @@ const awards = [
   },
   {
     id: 3,
-    title: "17洗车系统",
+    title: "**17洗车系统",
     date: "2018年2月 - 2019年1月",
     image: "Projects3.png",
     description:
@@ -25,7 +35,7 @@ const awards = [
   },
   {
     id: 4,
-    title: "建筑猎聘小程序",
+    title: "**建筑猎聘小程序",
     date: "2017年1月 - 2017年6月",
     image: "Projects4.png",
     description:

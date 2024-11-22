@@ -26,7 +26,7 @@
         class="btn-outline-secondary"
         url="https://robot.liujiarong.top"
         icon="fa-regular fa-file-code"
-        >免费ChatGPT</simple-button
+        >免费AI镜像</simple-button
       >
     </template>
   </HeroSection>
@@ -79,6 +79,16 @@ export default {
         {
           name: "应用",
           url: "#projects",
+        },
+        {
+          name: "免责声明",
+          url: "#",
+          click: () => {
+            localStorage.removeItem("modalClosed");
+            setTimeout(() => {
+              location.reload(); // 一秒后刷新当前页面
+            }, 500); // 1000 毫秒 = 1 秒
+          },
         },
         {
           name: "导航",

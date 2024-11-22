@@ -29,11 +29,13 @@
       </div>
     </div>
     <!--///container-->
+    <Modal />
   </section>
 </template>
 <script>
 import SingleProject from "./SingleProject.vue";
 import ProjectFilter from "./ProjectFilter.vue";
+import Modal from "./Modal.vue"; // import the Modal component
 
 export default {
   name: "ProjectsGrid",
@@ -41,6 +43,7 @@ export default {
   components: {
     ProjectFilter,
     SingleProject,
+    Modal, // register the Modal component
   },
   data: () => {
     return {
