@@ -2,7 +2,7 @@
  * @Author: Liu Jiarong
  * @Date: 2024-04-30 19:25:20
  * @LastEditors: Liu Jiarong
- * @LastEditTime: 2024-10-31 00:47:25
+ * @LastEditTime: 2024-12-21 22:22:05
  * @FilePath: /my-website/src/components/shared/AppFooter.vue
  * @Description: 
  * 
@@ -28,10 +28,14 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <a
+    <!-- <a
       class="text-center p-3"
       style="cursor: pointer; display: inline-block"
       onclick="window.open('https://liujiarong.top')"
+    > -->
+    <span
+      class="text-center p-3"
+      style="cursor: pointer; display: inline-block"
     >
       {{ copyright }}
       <p
@@ -57,12 +61,12 @@
         >
         <a
           target="_blank"
-          href="https://beian.miit.gov.cn/"
+          href="https://beian.miit.gov.cn"
           style="margin-left: 5px"
           >桂ICP备2021005990号-1</a
         >
       </p>
-    </a>
+    </span>
 
     <!-- Copyright -->
   </footer>
